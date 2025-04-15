@@ -44,7 +44,7 @@ def plot_grid_result(result,log=True):
     X = result['scoregrid']
     param_order = get_param_order(param_grid)
     cols = ['mean_test_score']
-    labels = ['accuracy']
+    labels = [' (accuracy)']
     colors = ['r','b']
     linestyles = ['--', '-']
 
